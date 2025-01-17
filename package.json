@@ -1,0 +1,7 @@
+{
+  "name": "nodebb-plugin-dynamic-reputation-admin",
+  "version": "0.0.1",
+  "main": "library.js",
+  "author": "Kai Froeb",
+  "dependencies": {}
+}
