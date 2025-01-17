@@ -4,14 +4,9 @@
   "description": "Admin panel for managing the dynamic reputation system",
   "url": "https://github.com/froeb/nodebb-plugin-dynamic-reputation-admin",
   "library": "./library.js",
-  "hooks": [
-    {
-      "hook": "static:app.load",
-      "method": "init"
-    },
-    {
-      "hook": "filter:admin.header.build",
-      "method": "addAdminNavigation"
-    }
-  ]
+  "admin": {
+    "route": "/plugins/dynamic-reputation",
+    "icon": "fa-bar-chart"
+  },
+  "hooks": []
 }
