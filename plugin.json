@@ -6,7 +6,11 @@
   "library": "./library.js",
   "admin": {
     "route": "/plugins/dynamic-reputation",
-    "icon": "fa-bar-chart"
-  },
+    "icon": "fa-bar-chart",
+    // Optionally load scripts in the ACP
+    "scripts": [
+      "static/lib/admin.js"
+    ]
+  }
   "hooks": []
 }
