@@ -6,15 +6,7 @@
   "library": "./library.js",
   "admin": {
     "route": "/plugins/dynamic-reputation",
-    "icon": "fa-bar-chart",
-    "scripts": [
-      "static/lib/admin.js"
-    ]
+    "icon": "fa-bar-chart"
   }
-  "hooks": [
-    {
-      "hook": "filter:admin.header.build",
-      "method": "addAdminNavigation"
-    }
-  ]
 }
+
