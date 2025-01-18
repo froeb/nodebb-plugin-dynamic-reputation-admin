@@ -11,5 +11,9 @@
       "static/lib/admin.js"
     ]
   }
-  "hooks": []
+  "hooks": [
+    {
+      "hook": "filter:admin.header.build",
+      "method": "addAdminNavigation"
+    }
 }
