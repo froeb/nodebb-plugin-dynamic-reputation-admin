@@ -16,5 +16,3 @@ plugin.init = async function (params) {
 };
 
 module.exports = plugin;
-
-module.exports = plugin;
