@@ -21,4 +21,13 @@ plugin.init = async function (params) {
   console.log("[dynamic-reputation-admin] init completed");
 };
 
+plugin.addAdminNavigation = async function (header) {
+  header.plugins.push({
+    route: "/plugins/dynamic-reputation",
+    icon: "fa-bar-chart",
+    name: "Dynamic Reputation"
+  });
+  return header;
+};
+
 module.exports = plugin;
